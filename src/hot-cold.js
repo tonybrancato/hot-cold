@@ -39,7 +39,7 @@ export default class HotCold extends React.Component {
         else if (diff>=10) {
             feedback = `Toasty`;
         }
-        else if (diff>=5) {
+        else if (diff>=1) {
             feedback = `You're Really Hot, Hot, Hot!`;
         }
         else {
